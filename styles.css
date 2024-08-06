@@ -1,0 +1,158 @@
+/* 大标题居中 */
+.custom-title {
+    text-align: center;
+    background-color: plum;
+    width: 50%; /* Set width to 50% of the viewport */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 10px; /* Add padding for better readability */
+    border-radius: 8px; /* 圆角边框 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影增加立体感 */
+}
+/* 首页大容器 */
+.home-look{
+    position: relative;
+    display: block;
+    height: 100%; /* 占据页面一半的宽度 */
+}
+/* 背景图 */
+.background{
+    max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+}
+.navigation-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 确保内容垂直居中 */
+    margin: 2%;
+    padding: 5px;
+}
+.navigation-up p{
+    font-size: 40px ;
+}
+.navigation-up table {
+    width: 80%; /* 表格宽度100%填充容器 */
+    border-collapse: collapse; /* 边框合并，让表格更紧凑 */
+}
+
+.navigation-up-td {
+    margin: 10px; /* 增加单元格之间的外边距 */
+    padding: 20px; /* 调整单元格内边距 */
+    font-size: 38px; /* 适当调整字体大小 */
+    background-color: #c7c7c7; /* 苹果风格的背景色，可以根据需要调整 */
+    border-radius: 10px; /* 可以根据需要调整圆角 */
+    text-align: center;
+}
+.navigation-up img{
+    text-align: right;
+}
+
+/* 左导航样式 */
+.navigation-left{
+    position: absolute;
+    width: 15%;
+    background-color: #b6d7a8; /* 苹果风格的背景色，可以根据需要调整 */
+    padding: 5px; /* 可以根据需要调整内边距 */
+    border-radius: 10px; /* 可以根据需要调整圆角 */
+    display: block; /* 添加布局 */
+}
+.navigation-left p {
+    text-align: center;
+    font-weight: bold; /* 设置导航标题的粗体 */
+    font-size: 56px; /* 设置字体大小 */
+}
+
+.navigation-left ul {
+    list-style-type: none; /* 去掉列表项的默认样式 */
+    padding: 0;
+    margin: 0; /* 去除默认的外边距 */
+}
+
+.navigation-left ul li {
+    margin-bottom: 10px; /* 调整列表项之间的间距 */
+    font-size: 26px; /* 设置字体大小 */
+}
+
+.navigation-left ul li a {
+    text-decoration: none; /* 去掉链接的下划线 */
+    color: #333; /* 设置链接文字颜色 */
+}
+
+.navigation-left ul li a:hover {
+    color: #666; /* 鼠标悬停时的链接文字颜色 */
+}
+/* 容器图片 */
+.image-container {
+    position: absolute;
+    right:0; /* 右对齐 */
+    max-width: 100%; /* 最大宽度为其父元素的100% */
+    max-height: 100%; /* 最大高度为其父元素的100% */
+    width: auto; /* 宽度自适应 */
+    height: auto; /* 高度自适应 */
+}
+
+/* 文本内嵌 */
+.centered-text {
+    position: relative;
+    font-size: 26px; /* 设置字体大小 */
+}
+
+
+.download{
+    background-color: rgb(255, 226, 216);
+}
+.download h2{
+    margin: 20px;
+    font-size: 26px;
+    padding: 10px;
+}
+.download p{
+    margin: 20px;
+    font-size: 26px;
+    padding: 10px;
+}
+.white005{
+    height: 5%;
+}
+.cr{
+    background-color: rgb(235, 255, 210);
+}
+.cr h2{
+    margin: 20px;
+    font-size: 26px;
+    padding: 10px;
+}
+.cr p{
+    margin: 20px;
+    font-size: 26px;
+    padding: 10px;
+}
+
+.explortation{
+    background-color: rgb(229, 220, 236);
+}
+.explortation h2{
+    margin: 20px;
+    font-size: 26px;
+    padding: 10px;
+}
+.explortation p{
+    margin: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.Personal{
+    background-color: rgb(229, 220, 236);
+}
+.Personal h2{
+    margin: 20px;
+    font-size: 26px;
+    padding: 10px;
+}
+.Personal p{
+    margin: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
